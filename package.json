@@ -14,13 +14,15 @@
     "react": "^16.4.1",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "styled-components": "^3.3.3"
+    "styled-components": "^3.3.3",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "@types/react": "^16.4.7",
     "@types/react-dom": "^16.0.6",
     "@types/react-redux": "^6.0.5",
     "@types/redux": "^3.6.0",
+    "@types/uuid": "^3.4.4",
     "electron": "^2.0.5",
     "react-dom": "^16.4.1",
     "ts-loader": "^4.4.2",
