@@ -3,5 +3,5 @@ export default interface IUser {
 }
 
 export const initUser: IUser = {
-  name: "",
-}
+  name: '',
+};

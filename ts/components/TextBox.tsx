@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 // 型指定
 interface IProps {
   // ラベル文字列
   label: string;
   // テキストボックスのタイプ
-  type: "text" | `password`;
+  type: 'text' | `password`;
   // テキストボックスに表示する値
   value: string;
   // 値の確定時にその値を親プロパティが取得するためにコールバック関数を提供。
-  onChangeText: (value:string) => void;
+  onChangeText: (value: string) => void;
 }
 
 /**
@@ -19,7 +19,7 @@ export class TextBox extends Component<IProps, {}> {
   public render() {
     const label = (!!this.props.label)
       ? <label>{this.props.label}</label>
-      : null; 
+      : null;
     return (
       <span>
         {label}

@@ -1,5 +1,5 @@
-import Redux from "redux";
-import {v4 as UUID} from "uuid";
+import Redux from 'redux';
+import {v4 as UUID} from 'uuid';
 
 /**
  * ユーザー名を変更するアクションタイプ
@@ -19,6 +19,6 @@ export interface IChangeUserNameAction extends Redux.Action {
 export const createChangeUserNameAction: Redux.ActionCreator<IChangeUserNameAction> = (name: string) => {
   return {
     name,
-    type: CHANGE_USER_NAME
-  }
-}
+    type: CHANGE_USER_NAME,
+  };
+};
