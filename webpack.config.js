@@ -22,6 +22,9 @@ module.exports = {
         configFile: './tslint.json',
         typeCheck: true,  // AirBnB 準拠
       },
+    },{
+      test: /\.css$/,
+      loaders: ['style-loader', 'css-loader'],
     }],
   },
   resolve: {
