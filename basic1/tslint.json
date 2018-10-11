@@ -5,7 +5,7 @@
   ],
   "jsRules": {},
   "rules": {
-    "quotemark": [true, "double", "jsx-double"]
+    "quotemark": [true, "single", "jsx-double"]
   },
   "rulesDirectory": []
 }

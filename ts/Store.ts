@@ -1,21 +1,18 @@
-import {combineReducers, createStore} from 'redux';
+import { AnyAction, combineReducers, createStore } from "redux";
 
-import { UserReducer } from './reducers/UserReducer';
-import IUser from './states/IUser';
+import { TaskReducer } from "./reducers/TaskReducer";
+import { ITaskList } from "./states/ITask";
 
 /**
- * storeのデータ型を定義する。(親State)
+ * ストア インタフェース
  */
 export interface IState {
-  User: IUser;
+  taskList: ITaskList;
 }
 
-// 複数の reducer を束ねる。
 const combinedReducer = combineReducers<IState>({
-  User: UserReducer,
+  taskList: TaskReducer,
 });
 
-// Store生成
-export const store = createStore(combinedReducer);
-
+const store = createStore(combinedReducer);
 export default store;

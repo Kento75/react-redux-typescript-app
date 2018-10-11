@@ -12,7 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "clone": "^2.1.2",
-    "moment": "^2.22.2",
     "react": "^16.4.1",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
