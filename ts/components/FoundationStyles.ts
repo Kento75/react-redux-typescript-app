@@ -4,7 +4,7 @@ import { injectGlobal } from "../../node_modules/styled-components";
 
 // グローバルスタイル
 // tslint:disable-next-line:no-unused-expression
-injectGlbal`
+injectGlobal`
   htiml, body {
     font-family: "Meiryo UI";
     font-size: 12pt;
